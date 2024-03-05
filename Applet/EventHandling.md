@@ -30,3 +30,4 @@ public class event extends Applet implements keylistener{
 }
 
 ```
+>> For event handling the package is required is `java.awt.event.*`
