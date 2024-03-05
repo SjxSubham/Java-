@@ -31,3 +31,6 @@ public class event extends Applet implements keylistener{
 
 ```
 >> For event handling the package is required is `java.awt.event.*`
+ 
+###### Key listener is an interface which is responsible for handling key releated events
+`getKeyChar` is method using which we can Xtract a perticular method from a keyboard
