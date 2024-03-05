@@ -18,3 +18,44 @@ public class Label extends JApplet{
     }
 }
 ```
+#### use of Checkbox using Swing
+```
+public class Checkbox extends jApplet{
+    JCheckBox cb,cb2,cb3;
+    public void init(){
+        Container cp = get.ContentPane();
+        cp.setLayout(new FlowLayout);
+        cb = new JCheckBox("c");
+        cb2 = new JCheckBox("C++");
+        cb3 = new JCheckBox("java");
+
+        cp.add(cb);
+        cp.add(cb2);
+        cp.add(cb3);
+        }
+    }
+}
+```
+>>JCheckBox classs is used to cr8 a check box in swing
+
+#### Programm to create Jradio button
+
+```
+public class Checkbox extends jApplet{
+    JCheckBox cb,cb2,cb3;
+    public void init(){
+        Container cp = get.ContentPane();
+
+        cp.setLayout(new FlowLayout());
+        cb = new JRadioButton("c");
+        cb2 = new JRadioButton("C++");
+        cb3 = new JRadioButton("java");
+
+        cp.add(cb);
+        cp.add(cb2);
+        cp.add(cb3);
+        }
+    }
+```
+
+    
