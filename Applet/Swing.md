@@ -1,6 +1,6 @@
 ## Swing
 #### Swing is an advanced version of applet for creating a swing programm we have to xtend J heirchy class
-######## programm to display
+###### programm to display
 
 >How to create a Label ?
 
