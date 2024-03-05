@@ -8,5 +8,6 @@ class class1{
         g.drawString("Hello",20,20);    //To create A normal Rectangle
         g.fillRect(200,400,40,40); // To create a filled rectangle
         g.drawOval(100,100,20,20); //To create an Oval
+        g.setColor(Color.red);  //use to set colour
     }
 }
